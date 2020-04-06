@@ -5,5 +5,6 @@
 
 
 # for문
-
+for i in range(1,6,1):
+    pass
 # while문
