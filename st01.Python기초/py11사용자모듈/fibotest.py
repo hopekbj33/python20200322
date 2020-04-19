@@ -8,3 +8,11 @@
 # main() 함수 정의 
 
 # 이 모듈이 단독으로 사용되면 main()를 호출하라.
+
+import fibo
+
+def main()
+    val=fibo.fib2(10)
+    print(val)
+if__name__=="__main__":
+    main()

@@ -18,3 +18,34 @@
 # 1부터 10까지의 합계를 구하고 출력
 # 1부터 100까지의 합계를 구하고 출력
 # 100부터 sum2까지의 합계를 구하고 출력
+"""
+x=input("숫자를 입력하세요")
+y=input("숫자를 입력하세요")
+합계=0
+
+for i in range(1,11,1):
+    합계=합계+i
+출력="%s부터 %까지의 합계는 %입니다" % (1,10,합계)
+print(출력)
+"""
+
+
+def get_sum(시작값, 종료값):
+    합계=0
+    for i in range(시작값,종료값+1,1):     
+        합계=합계+i
+        출력="%s부터 %s까지의 합계는 %s입니다" % (시작값,종료값,합계)
+        print(출력)
+    return 합계
+
+result=get_sum(1,10)
+print(result)
+
+
+def add(x,y):
+    result=x+y
+    return result
+a=3
+b=4
+value=add(a,b)
+print(value)

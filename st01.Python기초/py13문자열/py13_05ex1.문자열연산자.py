@@ -1,11 +1,12 @@
 # 0번째부터 12번째 자리까지 있음.
 # prov 길이는 13이다.
 prov = "A barking Dog"
-
+bite= " never Bites!"
 #################################
 # 문자열 연산자
 #################################
-
+str1=prov+bite
+print(str1)
 # 문자열 결합 연산자 : +
 # "A barking Dog never Bites!"를 출력하시오.
 

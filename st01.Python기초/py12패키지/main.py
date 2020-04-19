@@ -9,6 +9,7 @@
 
 
 # mylib.graphic 패키지의 geometry 모듈을 가져옴
+import mylib.graphic .geometry
 
 # mylib.sound 패키지의 echo 모듈을 가져옴
 
@@ -19,5 +20,6 @@
 # mylib.graphic 패키지 geometry 모듈의 rectangle_area 함수 사용
 
 # mylib.graphic 패키지 test 모듈의 test_graphic 함수 사용
-
+import mylib.graphic.test
+value = mylib.graphic.test.test_graphic()
 # mylib.operation 패키지 run 모듈의 render_test 함수 사용

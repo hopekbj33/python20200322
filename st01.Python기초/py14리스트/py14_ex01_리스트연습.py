@@ -10,18 +10,27 @@
 # 리스트 정렬(S) ==> .find() + 반복문 , .rfind() + 반복문 
 # 리스트 길이    ==> len()
 ############################
-방번호 = 0
-value = ""
+#방번호 = 0
+#value = ""
 
 #  List 선언
-
+리스트=[]
 
 #  C: 추가. 검색: "파이썬 리스트 추가"
 #  append() 또는 insert()
 #  MILK, BREAD, BUTTER 순으로 추가
 
+리스트.append("MILK")
+리스트.append("BREAD")
+리스트.append("BUTTER")
+print(리스트)
+
 #  APPLE 삽입. 검색: "파이썬 리스트 삽입"
 #  특정 위치에 추가하기
+방번호=리스트.index("BREAD")
+리스트[방번호]="포도"
+리스트.insert(방번호, "APPLE")
+print(리스트)
 #  "BREAD" 앞에 "APPLE" 삽입
 #  "BUTTER" 가 들어있는 방번호 찾기
 

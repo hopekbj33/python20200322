@@ -17,3 +17,16 @@
 # 프로그래밍에서 지향하는 방식은 전역변수를 사용하지 않는다 
 
 # main 함수 호출 
+
+
+def isprime(x):
+    result=None
+    #코드추가
+    for n in expression_list:
+        pass
+    else:
+        pass
+    return result 
+
+def main()
+main( )
